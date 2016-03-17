@@ -1,0 +1,16 @@
+Order allow,deny
+Allow from All
+#Satisfy Any
+
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteBase /
+
+
+# everything not suitable for above redirects (in case it is not an existing file or directory) -
+# is redirected to router which will attempt to find an appropriate controller/action
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.+ index.php [QSA]
+

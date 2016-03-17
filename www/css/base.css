@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+    font-size:12px;
+    
+}
+
+div.wrap{
+    width: 1000px;
+    margin:0px auto;
+    font-size:12px;
+}
+
+div.menu{
+    margin:10px;
+    margin-left: 0px;
+    padding: 20px 20px 20px 0px;
+    font-size: 14px;
+
+    
+}
+
+div.base_content{
+    
+    /*text-align: left;*/
+}
+
+.base_menu ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.base_menu li{
+    display: inline;
+    list-style-image: none;
+    width: 150px;
+    margin:4px;
+}
+
+.base_menu li a {
+    color: #0000EE;
+}
+
+.base_menu li.active{
+    font-weight: bold;
+}
+
+table{
+    font-size: 12px;
+}
+
+.list table tr td{
+    border-bottom: 1px solid grey;
+}
+
+.list table thead{
+        margin-bottom: 8px;
+}
+
+.list table tr th{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+
+.list table .actions a{
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    font-family: monospace;
+}
+.list table .name{width:150px;}
+.list table .group{width:100px;}
+.list table .date{width:120px;}
+.list table .department{width:180px;}
+.list table .passport{width:180px;}
+.list table .degree{width:180px;}
+.list table .faculty{width:180px;}
+.list table .actions{width:80px;}
+.subjects .value {width:90px;}
+
+
+.subject_list_template td.name {width: 300px;}
+ 
+.studentEditForm{display:none;}
+
+.editform {}
+
+.editform table{width:300px;}
+.editform select{width:200px;}
+.editform input{width:200px;}
+.editform textarea{width:200px;}
+.editform .f_name {text-align: right}
+
+
+.subject-select {float:left; width: 180px;}
+
+.subjects select {width:130px;}
+
